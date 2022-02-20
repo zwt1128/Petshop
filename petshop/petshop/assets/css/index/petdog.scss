@@ -1,0 +1,152 @@
+ul,li{
+    list-style: none;
+}
+.el-dog{
+    width: 100%;
+}
+.el-dog-l {
+    width: 1260px;
+    margin: 0 auto;
+}
+.el-dog .el-wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 1190px;
+    height: 90px;
+    text-align: center;
+}
+
+.el-dog .el-wrapper span {
+    margin-top: 45px;
+    display: inline-block;
+    width: 1100px;
+    border: 1px solid #ccc;
+}
+.el-dog .title-inner{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 90px;
+    color: #333;
+    background-color: #fff;
+}
+
+.el-dog .title-inner .title-bg{
+    width: 220px;
+    height: 90px;
+    background: url("https://ccdn.goodq.top/caches/b743838f302c63c3a9df703d21b43e81/aHR0cDovLzVjOTk4MTZiNGQ0NjkudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxOS8wMy9iZjZmZGFiYjAwZTIyNGVmYzAzNjY1NDgzNzE1MzljNC05MC53ZWJw.webp") no-repeat;;
+}
+
+.el-dog .title-inner .title {
+    font-size: 26px;
+}
+.el-dog .title-inner  p{
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+.el-products{
+    width: 1260px;
+    height: 900px;
+}
+.el-products .ibody {
+    float: left;
+    list-style: none;
+    width: 100%;
+    height: 410px;
+    margin-left: -20px;
+    background-color: #fff;
+    box-sizing: border-box;
+
+}
+.el-card{
+    border: 0;
+}
+.el-products .ibody .ibody-li {
+    width: 225px;
+    height: 410px!important;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 19px;
+    background: #fff;
+    transition: background-color 0.5s;
+
+}
+.el-products .ibody .ibody-li a {
+    width: 225px;
+    height: 410px!important;
+    text-decoration: none;
+}
+.el-products .ibody .ibody-li img {
+    margin: 0;
+    width: 225px;
+    height: 325px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+
+    
+.el-products .ibody .ibody-li  .cbody {
+    padding: 0;
+    text-align: center;
+}
+.el-products .ibody .ibody-li  .title {
+    font-size: 16px;
+    color: #222;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.el-products .ibody .ibody-li  .title a{
+    font-size: 12px;
+    color: #ccc;
+}
+.el-products .ibody .ibody-li  .title a:hover{
+    color: #000;
+}
+
+.el-products .ibody .ibody-li  .price {
+    height: 27px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #be9e4d;
+    font-weight: 500;
+}
+.el-products .ibody .ibody-li  em {
+    font-size: 20px;
+    color: #be9e4d;
+    margin-right: 6px;
+    letter-spacing: -0.8px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.el-bigimage{
+    width: 100%;
+    height: 230px;
+}           
+.el-bigimage .el-left{
+    float: left;
+    margin-left: 40px;
+    width: 390px;
+    height: 230px;
+}
+.el-bigimage .el-left img {
+    width: 410px;
+    height: 230px;
+}
+.el-bigimage .el-right{
+    float: right;
+    margin-right:20px;
+    height: 230px;
+}
+.el-bigimage .el-right img{
+    height: 230px;
+}

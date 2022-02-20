@@ -1,0 +1,60 @@
+.el-shop{
+    position: relative;
+    width: 100%;
+    height: 480px;
+
+}
+.el-shop .el-dimg{
+    position: absolute;
+    top: 0;
+    left: -53px;
+}
+.el-inner{
+    padding: 50px 0 0 40px;
+    box-sizing:border-box;
+    position: absolute;
+    top: 80px;   
+    background-color: #ff9003;
+    box-shadow: 3px 4px 10px #ff9003;
+    color: #fff;
+    text-align: left;
+}
+.el-shop .el-inner{ 
+    width: 500px;
+    height: 270px;  
+    right: 150px;   
+}
+.inner-title{
+    margin-bottom: 20PX;
+    font-size: 24px;
+}
+
+.inner-text {
+    height: 91px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.el-shop .inner-text {
+    width: 400px;
+}
+.el-video {
+    position: relative;
+    width: 100%;
+    height: 603px;
+    background: url("https://ccdn.goodq.top/caches/b743838f302c63c3a9df703d21b43e81/aHR0cDovLzVjOTk4MTZiNGQ0NjkudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxOS8wMy9mNGI1OTE5N2M1MmQxYTA0ZjZhMTRhYmVlMWRhMTFkZi05MC53ZWJw.webp") no-repeat 250px 460px;
+}
+.el-video .el-inner{   
+    width: 400px;
+    height: 350px; 
+    left: 100px;   
+}
+.el-video .inner-text {
+    width: 300px;
+}
+.front-image{
+    position: absolute;
+    top: 160px;
+    right: 100px;
+    width: 550px;
+    height: 440px;
+}

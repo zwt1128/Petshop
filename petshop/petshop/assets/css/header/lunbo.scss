@@ -1,0 +1,49 @@
+.el-lunbo{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 550px;
+}
+.el-image{
+    width: 100%;
+    height: 550px;
+}
+.el-image .image {
+    width: 100%;
+    height: 550px;
+}
+.el-prefe{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 268px;
+    height: 500px;
+    background-color: #fff;
+}
+.el-prefe .el-pre {
+    margin-left: 25px;
+    width: 220px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.el-title{
+    margin: 28px 0;
+}
+.el-title img {
+    float: left;
+    margin-right: 5px;
+}
+.el-title .title{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.el-title .text span {
+    margin-right: 5px;
+}
+.el-title .text span a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #888;
+}

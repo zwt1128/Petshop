@@ -1,0 +1,190 @@
+.contentlr {
+    display       : flex;
+    flex-direction: row;
+    // margin-left   : 130px;
+    width: 1200px;
+    margin: auto;
+}
+
+.cl {
+    width: 261px;
+}
+
+.cr-index {
+    width      : 916px;
+    // margin-left: 30px;
+}
+
+.ctleft {
+    float       : right;
+    margin-right: 10px;
+}
+
+.content-zq {
+    width         : 241px;
+    display       : flex;
+    flex-direction: column;
+}
+
+.zq-h3 {
+    width           : 100%;
+    height          : 50px;
+    background-color: black;
+    border-radius   : 30px;
+    color           : white;
+    line-height     : 50px;
+    margin: 0;
+}
+
+.zq-h3 img {
+    width       : 20px;
+    margin-right: 10px;
+}
+
+.bt-ul {
+    margin-left: -35px;
+}
+
+.bt-li1 {
+    list-style   : none;
+    width        : 200px;
+    height       : 38px;
+    border-bottom: solid 1px #ccc;
+}
+
+.bt-li2 {
+    list-style: none;
+    width     : 200px;
+    height    : 38px;
+    margin-top: 20px;
+}
+
+.bt-li-div {
+    width      : 77px;
+    height     : 38px;
+    font-size  : 13px;
+    font-family: "微软雅黑";
+}
+
+.content-tj {
+    width         : 241px;
+    display       : flex;
+    flex-direction: column;
+}
+
+.tj-bt {
+    width           : 241px;
+    height          : 50px;
+    background-color: orange;
+    border-radius   : 30px;
+    color           : white;
+    line-height     : 15px;
+}
+
+.tj-bt h3 img {
+    width       : 20px;
+    margin-right: 10px;
+    margin-top  : -15px;
+}
+
+.ul {
+    margin-left: -35px;
+}
+
+.li {
+    list-style: none;
+}
+
+.li-list {
+    margin        : 10px 0;
+    display       : flex;
+    flex-direction: row;
+}
+
+.li-list-style {
+    display       : flex;
+    width         : 100px;
+    height        : 106px;
+    flex-direction: column;
+}
+
+.li-ta {
+    width    : 100px;
+    font-size: 10px;
+}
+
+.li-pa {
+    width: 100px;
+    color: orange;
+    padding: 12px 0;
+}
+
+// .li-btn a {
+//     text-decoration: none;
+// }
+
+.image {
+    width  : 80px;
+    height : 96px;
+    display: block;
+}
+
+.clickzq1 {
+    display : none;
+    position: absolute;
+    top     : 320px;
+    left    : 360px;
+}
+
+.clickzq2 {
+    display : none;
+    position: absolute;
+    top     : 320px;
+    left    : 360px;
+}
+
+.imagess {
+    width  : 225px;
+    height : 325px;
+    display: block;
+}
+
+.imgs {
+    width: 100%;
+}
+
+.ctright {
+    display: block;
+}
+
+.r-ul {
+    display: flex;
+}
+
+.r-li {
+    list-style: none;
+    width     : 225px;
+}
+
+.zhuanqu {
+    margin-top: 50px;
+}
+
+.zhuanqu-list {
+    margin: 0 20px;
+}
+
+.list-ta {
+    width    : 100px;
+    font-size: 10px;
+}
+
+.list-pa {
+    width: 100px;
+    color: orange;
+}
+
+.images {
+    width  : 100px;
+    display: block;
+}

@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+}
+.dleft {
+    border-right: 1px solid #ccc;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+}
+.section-dd {
+    float: left;
+    width: 370px!important;
+    height: 600px;
+}
+.box {
+    position: relative;
+}
+.box .small .small-img {
+    width: 370px!important;
+    height: 460px;
+    width: 90%;
+}
+.small .bai {
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    opacity: .3;
+    z-index: 100;
+}
+.box .big {
+    position: absolute;
+    top: 0;
+    left: 371px;
+    width: 370px;
+    height: 440px;
+    overflow: hidden;
+    z-index: 5;
+}
+.box .big .big-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 600px;
+}
+.thumbnails{
+    margin-top: 15px;
+}
+.thumbnails ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.thumbnails ul li {
+    margin-right: 10px;
+    float: left;
+}
+.section-dl {
+    margin-left: 40px;
+    height: 460px;
+}
+.section-dl h1 {
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 21px;
+}
+.section-dl .fg-div{
+    font-weight: normal;
+    width: 50px;
+    height: 2px;
+    background-color: #dddddd;
+}
+.section-dl .pinpai {
+    margin-top: 25px;
+}
+.section-dl .pinpai p {
+    font-size: 13px;
+    color: #999;
+}
+.section-dl .price {
+    margin: 30px 0;
+    font-size: 26px;
+    font-weight: normal;
+    color: #ff9003;
+    font-family: 400;
+    line-height: 26px;
+}
+.section-dl .fenlei .color{
+    font-size: 15px;
+    color: #383838;
+}
+.section-dl .fenlei a {
+    margin-left: 5px;
+    padding: 3px 7px;
+    font-size: 12px;
+    color: #383838;
+    border: 1px solid #ccc;
+}
+.section-dl .fenlei a:focus{
+    color: #fff;
+    border: 0;
+    background-color: #ff9003;
+}
+.cart-button .el-button{
+    width: 138px;
+    height: 46px;
+    color: #fff;
+    background-color: #000!important;
+}
+.el-input-number{
+    margin-left: 20px;
+}
+.sku_wrapper{
+    margin: 15px 0 5px 0;
+    height: 30px;
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+.posted_in span{
+    font-size: 12px;
+    color: #999;
+}
+.posted_in  .alink  a{
+    color: #d1d1d1;
+}
+.deal-need-login {
+    text-align: left;
+}
+dd {
+    margin: 0;
+    text-align: left;
+    
+}
+.el-tab-pane p{
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}

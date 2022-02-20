@@ -1,0 +1,66 @@
+.content-tj {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-tj .tj-bt {
+  width: 250px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 20px;
+  color: white;
+  line-height: 1px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ul {
+  margin-left: -35px;
+}
+
+.li {
+  list-style: none;
+}
+
+.li-list {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 83px;
+  height: 100px;
+  display: block;
+}
+
+.li-list-style {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.li-ta {
+  width: 140px;
+  font-size: 10px;
+}
+
+.li-pa {
+  margin: 10px 0;
+  color: orange;
+}
+
+.li-btn {
+  width: 140px;
+}
+
+.li-btn a {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.li-btn a:hover {
+  color: #999;
+}

@@ -1,0 +1,51 @@
+element.style{
+    position: absolute;
+     top: 150px;
+     left: 50%;
+     margin-left: -600px;
+     border-radius: 25px;
+     width: 1169px;
+     padding-left: 25px;
+ }
+.el-content{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+.is-active{
+    border: 0!important;
+    background-color: #000;
+}
+.el-img{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+}
+.cimage{
+    width: 204px;
+    height: 58px;
+}
+.el-menu-demo{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -600px;
+    border-radius: 25px;
+    width: 1169px;
+    padding-left: 25px;
+      
+}
+.el_menu_item:focus {
+    border: 0!important;
+    background-color: #000!important;
+}
+.is-active:focus {
+    border: 0!important;
+    background-color: #000!important;
+}
+.is-active:hover {
+    border: 0!important;
+    background-color: #000!important;
+}

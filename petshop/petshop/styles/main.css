@@ -1,0 +1,24 @@
+html,
+body,
+ul
+#app {
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: #222;
+  color: white;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
